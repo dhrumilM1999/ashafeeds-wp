@@ -1,0 +1,81 @@
+
+.depicter-revert.depicter-12 .depicter-layers-wrapper{
+	padding-left:15px;
+	padding-right:15px;
+}
+.depicter-revert .depicter-12-element-10{
+	font-size:16px;
+	text-align:center;
+	color:#FFF;
+	font-family:"Roboto";
+	font-weight:400;
+	background-color:#229db8;
+	border-radius:6px;
+}
+.depicter-revert .depicter-12-element-10:not(.depicter-hover-off):hover {
+	color:#FFF;
+	background-color:#222222;
+}
+.depicter-revert .depicter-12-element-8{
+	font-size:17px;
+	color:#ffffff;
+	font-family:"Open Sans";
+	font-weight:500;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-12-element-7{
+	font-size:34px;
+	color:#ffffff;
+	font-family:"Open Sans";
+	font-weight:600;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-12-section-1 .depicter-bg-video-container{
+	background-color:#FFF;
+}
+.depicter-revert .depicter-12-section-1 .depicter-bg-video-container::after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:1;
+	background-color:rgba(52, 52, 52, 0.3);
+}
+.depicter-revert .depicter-12-element-36{
+	font-size:16px;
+	text-align:center;
+	color:#FFF;
+	font-family:"Roboto";
+	font-weight:400;
+	background-color:#229db8;
+	border-radius:6px;
+}
+.depicter-revert .depicter-12-element-36:not(.depicter-hover-off):hover {
+	color:#FFF;
+	background-color:#222222;
+}
+.depicter-revert .depicter-12-element-34{
+	font-size:17px;
+	color:#ffffff;
+	font-family:"Open Sans";
+	font-weight:500;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-12-element-33{
+	font-size:34px;
+	color:#ffffff;
+	font-family:"Open Sans";
+	font-weight:600;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-12-section-32 .depicter-bg-video-container{
+	background-color:#FFF;
+}
+
