@@ -1,0 +1,250 @@
+/*
+Theme Name: Asha Feeds Child
+Template: ashafeeds
+Text Domain: ashafeeds-child
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-car-rental-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Asha Feeds Child is an excellent theme for auto, automotive, car, car dealer, car dealership, dealership, directory, inventory management, listing, listings, motorcycle, truck, vehicle, vehicle listing search types of businesses who want to establish their website. With this theme, anyone can attract potential clients as its structure is stunning and the theme is loaded with features. If you want to build your career in this field, then you must consider our theme. The Asha Feeds Child theme is completely optimized with SEO, and it also supports all SEO plugins. Moreover, the theme has a custom mega menu option, header layout options, hundreds of google font options, and even a color management option to customize the website. Easy features can give you the satisfaction of customizing everything. It also comes with social media integration and has compatibility with Woocommerce. Social media icons, such as Instagram and Facebook, are present to help showcase your work and promote services. This theme is ideal for driving courses and driving school. It is a powerful and responsive theme that can be used on any device.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, e-commerce, photography
+Version: 1.2
+Tested up to: 6.1
+Requires PHP: 7.2
+Requires at least: 5.0
+*/
+
+h1, h2, h3, h4, h5, h6,body,p.simplep,#theme-sidebar button[type="submit"], #footer button[type="submit"],.more-btn a,.main-navigation a{
+    font-family: 'Lato', sans-serif;
+}
+.page-box h4 a{
+    letter-spacing: unset;
+}
+
+a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,.search-box i,#theme-sidebar h3,#theme-sidebar a:hover,.headerbox i:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.social-media i:hover,#about h3,#main-content a{
+    color: var(--theme);;
+}
+.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],#theme-sidebar .tagcloud a:hover,.headerbox i, .more-btn i,.headerbox i:after,#comments input[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,#return-to-top,.error-404 [type="submit"],button[type="submit"],.site-info,.more-btn a,.email{
+    background:var(--theme);
+}
+#footer .tagcloud a:hover,.search_inner form.search-form{
+    border-color: var(--theme);;
+}
+
+h1, h2, h3, h4, h5, h6,.comment-body,.comment-metadata a.comment-edit-link,.box-info i,.logo h1 a,a:hover,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.main-navigation a,nav.woocommerce-MyAccount-navigation ul li a,nav.woocommerce-MyAccount-navigation ul li{
+    color: #161921;
+}
+#footer,.main-navigation ul ul,.more-btn a:hover,.headerbox i:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,#slider,.call{
+    background: #161921;
+}
+
+body,.logo p,.page-box p,#theme-sidebar a,.box-info span,#theme-sidebar li,p.simplep{
+    color: #000;
+}
+
+.headerbox{
+    background: transparent;
+    padding: 10px;
+}
+#mySidenav {
+    justify-content: flex-end;
+}
+p.simplep{
+    font-size: 16px;
+}
+.logo h1 {
+    font-size: 25px;
+}
+.menubar{
+    border: none;
+}
+.main-navigation li,.main-navigation li:last-child,.search-box i{
+    border: none;
+}
+.main-navigation a{
+    font-weight: 700;
+}
+.main-navigation ul ul li, .menubar.scrolled .main-navigation ul ul li {
+    border-bottom: 1px solid #3e3e3e;
+}
+.social-media i,.search-box i,#about a,.more-btn a:hover,#footer li a,#footer .tagcloud a,#footer .textwidget,#footer li,#footer th, #footer td,#footer tr,.site-info p,p.infotext,p.simplep,.car-inner-content h3 a{
+    color: #fff;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    color: #fff !important;
+}
+#footer h3,#footer .widget_rss li,#footer .tagcloud a,#footer th, #footer td,#footer tr,#footer table#wp-calendar{
+    border-color: #fff;
+}
+.woocommerce ul.products li.product a {
+    text-decoration: none !important;
+}
+
+/* Slider Css  */
+
+#slider img {
+    opacity: 0.4;
+}
+#slider .inner_carousel h2{
+    font-size: 55px;
+    font-weight: bold;
+}
+#slider .carousel-caption {
+    right: 50%;
+}
+.more-btn{
+    display: inline-block;
+}
+.more-btn a {
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.more-btn i{
+    display: none;
+}
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon{
+    border-radius: 0;
+}
+
+.stick_head{
+  left: 0;
+}
+.stick_head #mySidenav{
+  justify-content: center;
+}
+
+/* Contact Info Css  */
+
+p.infotext {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p.simplep {
+    font-size: 20px;
+}
+#contact-info i {
+    font-size: 40px;
+    color: #fff;
+}
+
+/* Best Car Deal Css  */
+
+p.section_text {
+    width: 50%;
+    margin: 0 auto;
+}
+.cat-inner-box {
+    box-shadow: 0px 6px 12px 0px #ababab;
+}
+.featured-car-box p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.featured-car-box {
+    background: #161921;
+    padding: 15px 10px;
+}
+.car-inner-content {
+    background: var(--theme);;
+    padding: 15px 10px;
+}
+.car-inner-content h3 {
+    font-size: 18px;
+}
+.car-inner-content p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.site-info a{
+  color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .logo {
+        text-align: left;
+    }
+    .toggle-nav button,.sidenav .closebtn i{
+        color: var(--theme);;
+    }
+    .menubar,a.closebtn i {
+        background: transparent;
+    }
+    .headerbox i{
+        border-radius: 0;
+    }
+    .sidenav{
+       background: #161921;
+    }
+    #tp_content,#slider .inner_carousel {
+        text-align: center;
+    }
+    #slider .carousel-caption {
+        right: 10%;
+        left: 10%;
+    }
+    #about img {
+        padding-top: 15px;
+    }
+    p.section_text{
+        width: auto;
+    }
+    .stick_head{
+      margin:0px;
+      position: static;
+    }
+    .menubar.login-user.stick_head{
+      margin-top:0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .toggle-nav button{
+        color: var(--theme);;
+    }
+    #slider .carousel-caption {
+        right: 20%;
+    }
+    .logo {
+        text-align: left;
+    }
+    .sidenav .closebtn i{
+        color: var(--theme);;
+    }
+    .menubar,a.closebtn i {
+        background: transparent;
+    }
+    .headerbox i{
+        border-radius: 0;
+    }
+    .toggle-nav{
+        text-align: right;
+    }
+    p.infotext,p.simplep{
+        font-size: 13px;
+    }
+    #slider .inner_carousel h2 {
+        font-size: 38px;
+    }
+    .menubar.login-user.stick_head {
+    margin-top: 46px;
+    background: #fff;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    #slider .inner_carousel h2 {
+        font-size: 40px;
+    }
+    p.infotext,p.simplep{
+        font-size: 15px;
+    }
+    #slider .carousel-caption {
+        right: 35%;
+    }
+}
