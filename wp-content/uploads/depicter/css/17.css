@@ -15,12 +15,15 @@
 .depicter-17-element-10 .depicter-bullet-item{
 	background-color:rgba(0,0,0,0.5);
 	border-radius:5px 5px 5px 5px ;
-	margin-right:5px;
 	width:9px;
 	height:9px;
 }
 .depicter-17-element-10 .depicter-bullet-item.depicter-bullet-active{
 	background-color:rgba(0,0,0,1);
+}
+.depicter-17-element-10 .depicter-bullets-wrapper{
+	gap:5px;
+	flex-direction:row;
 }
 .depicter-revert .depicter-17-element-11{
 	border-width:2px 2px 2px 2px;
@@ -39,10 +42,6 @@
 	font-weight:100;
 	background-color:#013769;
 	border-radius:6px;
-}
-.depicter-revert .depicter-17-element-18:not(.depicter-hover-off):hover {
-	color:#FFF;
-	background-color:#222222;
 }
 .depicter-revert .depicter-17-element-12{
 	font-size:34px;
@@ -63,10 +62,6 @@
 	font-weight:100;
 	background-color:#013769;
 	border-radius:6px;
-}
-.depicter-revert .depicter-17-element-19:not(.depicter-hover-off):hover {
-	color:#FFF;
-	background-color:#222222;
 }
 .depicter-revert .depicter-17-element-16{
 	font-size:34px;

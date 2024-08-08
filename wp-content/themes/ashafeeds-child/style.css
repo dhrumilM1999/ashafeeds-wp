@@ -22,18 +22,16 @@ h1, h2, h3, h4, h5, h6,body,p.simplep,#theme-sidebar button[type="submit"], #foo
     letter-spacing: unset;
 }
 
-a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,.search-box i,#theme-sidebar h3,#theme-sidebar a:hover,.headerbox i:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.social-media i:hover,#about h3,#main-content a{
-    color: var(--theme);;
-}
 .prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],#theme-sidebar .tagcloud a:hover,.headerbox i, .more-btn i,.headerbox i:after,#comments input[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,#return-to-top,.error-404 [type="submit"],button[type="submit"],.site-info,.more-btn a,.email{
     background:var(--theme);
 }
+
 #footer .tagcloud a:hover,.search_inner form.search-form{
     border-color: var(--theme);;
 }
 
 h1, h2, h3, h4, h5, h6,.comment-body,.comment-metadata a.comment-edit-link,.box-info i,.logo h1 a,a:hover,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.main-navigation a,nav.woocommerce-MyAccount-navigation ul li a,nav.woocommerce-MyAccount-navigation ul li{
-    color: #161921;
+    color: #07080D;
 }
 #footer,.main-navigation ul ul,.more-btn a:hover,.headerbox i:hover,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,#slider,.call{
     background: #161921;
